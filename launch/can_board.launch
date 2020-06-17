@@ -1,0 +1,4 @@
+<launch>
+    <!--include file="$(find pepperl_fuchs_r2000)/launch/gui_example.launch"/-->
+    <node pkg="can_board_pkg" name="can_board_pkg_node" type="can_board_pkg_node" output="screen"></node>
+</launch>

@@ -1,0 +1,10 @@
+float32 xspeed  
+float32 thspeed  
+float32 leftspeed  
+float32 rightspeed 
+float32 leftrpm  
+float32 rightrpm 
+int32 leftdec  
+int32 rightdec  
+int32 leftencoder  
+int32 rightencoder 

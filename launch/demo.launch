@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find can_board_pkg)/launch/can_board.launch"/>
+    <include file="$(find power_board_pkg)/launch/demo.launch"/>
+    <node pkg="can_board_pkg" name="test_node_pub" type="test_node_pub" output="screen"></node>
+</launch>
